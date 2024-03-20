@@ -10,7 +10,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="  w-full  ">
-      <div className="flex flex-row items-center justify-between py-2 lg:py-6 lg:w-[80%] lg:mx-auto lg:border-b-2 lg:border-b-zinc-300/10">
+      <div className="flex flex-row px-4 items-center justify-between py-2 lg:py-6 lg:w-[80%] lg:mx-auto lg:border-b-2 lg:border-b-zinc-300/10">
         <div className="flex flex-row items-center gap-2">
           <Image
             src={"/navbar/nav-logo.svg"}

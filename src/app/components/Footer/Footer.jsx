@@ -51,14 +51,17 @@ const Footer = () => {
           backgroundRepeat: "no-repeat",
         }}
       ></div>
-      <div className=" flex flex-col p-6 gap-5 relative z-10">
+      <div className=" flex flex-col  p-6 gap-5 relative z-10">
+        <div className="flex flex-row my-2 items-center justify-center">
+
         <Image
           src={"/footer/footer-logo.svg"}
           height={100}
-          width={300}
+          width={250}
           alt="footer-logo"
           className="object-cover"
-        />
+          />
+          </div>
 
         <div className="grid grid-cols-2 gap-4">
           {footerButtonsData.map((button, index) => (

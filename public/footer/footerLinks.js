@@ -57,7 +57,7 @@ export const footerLinksData = [
       "Blog",
       "Clients",
       "Careers",
-      "Hiring",
+      
     ],
   },
 ];
