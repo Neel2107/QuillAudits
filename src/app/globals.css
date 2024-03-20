@@ -24,3 +24,8 @@ body {
 .list-circle-item{
   list-style-type: circle;
 }
+
+
+.list-alphabet-item{
+  list-style-type: lower-alpha;
+}
