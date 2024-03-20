@@ -1,8 +1,8 @@
 
 import React from 'react'
-import { jost, poppins } from "../app/layout";
+import { jost, poppins } from "../layout";
 import Image from 'next/image';
-import { articlesData } from '../../public/blockchainEnabled/ArticlesData';
+import { articlesData } from '../../../public/blockchainEnabled/ArticlesData';
 
 const BlockchainEnabled = () => {
   return (

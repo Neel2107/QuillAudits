@@ -2,8 +2,8 @@ import React from "react";
 import {
   auditOverViewDataAfter,
   auditOverViewDataBefore,
-} from "../../public/auditOverViewData/auditOverViewData";
-import { jost, poppins } from "../app/layout";
+} from "../../../public/auditOverViewData/auditOverViewData";
+import { jost, poppins } from "../layout";
 import Headquarters from "./Headquarters";
 
 const AuditOverview = () => {

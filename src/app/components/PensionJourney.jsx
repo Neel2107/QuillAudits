@@ -1,10 +1,10 @@
 import React from "react";
-import { jost, poppins } from "../app/layout";
+import { jost, poppins } from "../layout";
 import {
   FunctionalTesting,
   manualCodeReview,
   pensionJourneyData,
-} from "../../public/pensionJourney/pensionJourneyData";
+} from "../../../public/pensionJourney/pensionJourneyData";
 
 const PensionJourney = () => {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { jost } from "../app/layout";
-import { navData } from "../../public/navbar/Navdata";
+import { jost } from "../layout";
+import { navData } from "../../../public/navbar/Navdata";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { GrDown } from "react-icons/gr";
 
