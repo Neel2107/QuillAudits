@@ -3,7 +3,7 @@ import {
   auditOverViewDataAfter,
   auditOverViewDataBefore,
 } from "../../public/auditOverViewData/auditOverViewData";
-import { jost, poppins } from "@/app/layout";
+import { jost, poppins } from "../app/layout";
 import Headquarters from "./Headquarters";
 
 const AuditOverview = () => {

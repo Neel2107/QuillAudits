@@ -1,5 +1,5 @@
 import React from "react";
-import { jost, poppins } from "@/app/layout";
+import { jost, poppins } from "../app/layout";
 import {
   FunctionalTesting,
   manualCodeReview,

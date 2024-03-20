@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
-import { jost, poppins } from "@/app/layout";
+import { jost, poppins } from "../app/layout";
 
 const Hero = () => {
   return (
