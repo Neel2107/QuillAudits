@@ -5,7 +5,7 @@ import { jost, poppins } from "@/app/layout";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-x-hidden lg:h-[88vh] bg-blue-950">
+    <div className="relative overflow-x-hidden  bg-blue-950">
       <Navbar />
 
       <div className="flex flex-col lg:w-[80%] lg:mx-auto lg:justify-center  ">
@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
         </div>
         <p
-          className={`${jost.className} hidden lg:flex ml-32  flex-row gap-2 items-center text-[12px] font-[500] mt-16 text-white`}
+          className={`${jost.className} hidden lg:flex ml-32 py-2  flex-row gap-2 items-center text-[12px] font-[500] mt-16 text-white`}
         >
             <span className="text-zinc-400">
             QuillAudits --&gt; Resources --&gt;

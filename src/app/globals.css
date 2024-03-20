@@ -16,3 +16,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.list-item{
+  list-style-type: disc;
+}
+
+.list-circle-item{
+  list-style-type: circle;
+}
