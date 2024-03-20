@@ -4,7 +4,7 @@ import { footerIconsData, footerImagesData } from '../../../../public/footer/foo
 
 const FooterLogos = () => {
   return (
-    <div className="flex flex-col my-4 gap-10">
+    <div className="flex flex-col my-4 gap-10 ">
     <div className="flex flex-row items-center gap-5">
       {footerImagesData.map((image, index) => {
         return (

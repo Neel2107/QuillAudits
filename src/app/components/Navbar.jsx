@@ -41,7 +41,7 @@ const Navbar = () => {
         ))}
 
         <button
-          className={`${jost.className} bg-button-gradient py-2 px-4 rounded-md text-white text-xs  xl:text-lg shadow-lg`}
+          className={`${jost.className} bg-button-gradient py-2 px-4 rounded-md text-white md:hidden text-xs  xl:text-lg shadow-lg`}
         >
           Request An Audit
         </button>

@@ -4,7 +4,7 @@ import Headquarters from "./Headquarters";
 
 const AuditTrusted = () => {
   return (
-    <div className="flex flex-col gap-10 px-5 items-center justify-center mt-16 lg:w-3/4 lg:mx-auto">
+    <div className="flex flex-col gap-10 px-5 items-center justify-center mt-16 md:w-3/4 md:mx-auto">
       <h1
         className={` ${jost.className} font-[600] text-[36px] text-center text-[#0E3088] lg:w-3/4`}
       >

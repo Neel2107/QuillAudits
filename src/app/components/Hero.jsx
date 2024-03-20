@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative overflow-x-hidden  bg-blue-950">
       <Navbar />
 
-      <div className="flex flex-col lg:w-[80%] lg:mx-auto lg:justify-center  ">
+      <div className="flex flex-col md:w-3/4 md:mx-auto lg:w-[80%] lg:mx-auto lg:justify-center  ">
         <div className="flex flex-col lg:flex-row lg:justify-center mt-10  ">
           <div className="my-4 lg:hidden">
             <span

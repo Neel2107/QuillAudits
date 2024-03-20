@@ -5,7 +5,7 @@ import { jost } from "../layout";
 const UserCard = () => {
   return (
     <div className="px-5 mt-10">
-      <div className="relative border border-zinc-300 rounded-md overflow-hidden">
+      <div className="relative border border-zinc-300 rounded-md overflow-hidden md:w-1/2 md:mx-auto">
         <div
           className="absolute inset-0"
           style={{

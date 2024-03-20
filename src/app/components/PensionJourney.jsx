@@ -8,7 +8,7 @@ import {
 
 const PensionJourney = () => {
   return (
-    <div className="flex flex-col items-center px-5 ">
+    <div className="flex flex-col items-center px-5 md:w-3/4 md:mx-auto ">
       <h1 className={`${jost.className} font-[800] text-[34px] lg:w-1/2 mt-10`}>
         CarpeDiem Pension&apos;s Journey Through our Audit Process
       </h1>

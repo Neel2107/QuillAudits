@@ -4,7 +4,7 @@ import { jost } from "@/app/layout";
 
 const FooterMainLinks = () => {
   return (
-    <div className="grid grid-cols-2 mt-5 gap-8 ">
+    <div className="grid grid-cols-2 mt-5 gap-8 md:grid-cols-4 md:mx-auto ">
       {footerLinksData.map((link, index) => {
         return (
           <div key={index} className="flex flex-col gap-4">

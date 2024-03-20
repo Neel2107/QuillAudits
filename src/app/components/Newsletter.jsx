@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Newsletter = () => {
   return (
-    <div className="flex flex-col items-center mt-10 gap-8">
+    <div className="flex flex-col items-center mt-10 gap-8 md:w-3/4 md:mx-auto">
       <div className="flex flex-row items-center ">
         <p className={`${jost.className}`}>
           Security First{" "}

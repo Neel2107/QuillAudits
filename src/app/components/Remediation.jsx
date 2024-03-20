@@ -25,7 +25,7 @@ const Remediation = () => {
         },
     ]
   return (
-    <div className="flex flex-col gap-5 px-5 mt-10">
+    <div className="flex flex-col gap-5 px-5 mt-10 md:w-3/4 md:mx-auto">
       <h1 className={`${jost.className} font-[800] text-[34px] lg:w-1/2 `}>
         Remediation & Impact:
       </h1>
