@@ -9,7 +9,7 @@ const Hero = () => {
       <Navbar />
 
       <div className="flex flex-col md:w-3/4 md:mx-auto lg:w-[80%] lg:mx-auto lg:justify-center  ">
-        <div className="flex flex-col lg:flex-row lg:justify-center mt-10  ">
+        <div className="flex flex-col lg:flex-row lg:justify-between xl:justify-center mt-10  ">
           <div className="my-4 lg:hidden">
             <span
               className={`mx-4 py-1 border-b-2 border-blue-400 text-white ${jost.className}`}
@@ -18,7 +18,7 @@ const Hero = () => {
             </span>
           </div>
 
-          <div className="h-72 lg:h-96 lg:w-[35%] flex flex-col  items-center justify-center bg-gradient-to-r from-black to-[#023b01] relative xl:rounded-lg ">
+          <div className="h-72 lg:h-96 lg:w-[45%] xl:w-[35%] flex flex-col  items-center justify-center bg-gradient-to-r from-black to-[#023b01] relative xl:rounded-lg ">
             <Image
               src={"/hero/cd-logo.svg"}
               height={200}

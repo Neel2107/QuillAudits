@@ -33,7 +33,7 @@ const Navbar = () => {
             key={item.id}
             className="hidden md:flex flex-row items-center gap-2"
           >
-            <div className="text-sm  xl:text-lg text-white">{item.title}</div>
+            <div className="text-sm  xl:text-base text-white">{item.title}</div>
             {item.isDropdown && (
               <GrDown className="text-white lg:text-lg font-semibold" />
             )}
@@ -42,6 +42,11 @@ const Navbar = () => {
 
         <button
           className={`${jost.className} bg-button-gradient py-2 px-4 rounded-md text-white md:hidden text-xs  xl:text-lg shadow-lg`}
+        >
+          Request An Audit
+        </button>
+        <button
+          className={`${jost.className} hidden lg:block bg-button-gradient py-2 px-4 rounded-md text-white text-xs  xl:text-lg shadow-lg`}
         >
           Request An Audit
         </button>

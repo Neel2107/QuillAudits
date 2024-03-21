@@ -25,7 +25,7 @@ const Remediation = () => {
         },
     ]
   return (
-    <div className="flex flex-col gap-5 px-5 mt-10 md:w-3/4 md:mx-auto">
+    <div className="flex flex-col gap-5 px-5 mt-10 md:w-3/4 md:mx-auto ">
       <h1 className={`${jost.className} font-[800] text-[34px] lg:w-1/2 `}>
         Remediation & Impact:
       </h1>
@@ -34,7 +34,7 @@ const Remediation = () => {
         significantly enhancing the smart contract&apos;s security posture. Key
         improvements include
       </p>
-      <ul className="flex flex-col gap-5">
+      <ul className="flex flex-col lg:w-1/2 gap-5">
        {
         RemediationData.map((data) => {
             return (
@@ -46,9 +46,9 @@ const Remediation = () => {
        }
       </ul>
 
-      <p className="text-wrap">
+      <p className="text-wrap lg:w-1/2">
         <span className={` ${poppins.className} font-semibold`}>Embed this tweet :-</span>
-        <span className={` ${poppins.className} break-words text-blue-600`}>https://x.com/CarpeDiemCDP/status/1742906560794296402?s=20</span>
+        <span className={` ${poppins.className}  break-words text-blue-600`}>https://x.com/CarpeDiemCDP/status/1742906560794296402?s=20</span>
       </p>
     </div>
   );

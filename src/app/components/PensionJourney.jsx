@@ -8,15 +8,16 @@ import {
 
 const PensionJourney = () => {
   return (
-    <div className="flex flex-col items-center px-5 md:w-3/4 md:mx-auto ">
-      <h1 className={`${jost.className} font-[800] text-[34px] lg:w-1/2 mt-10`}>
+    <div className="flex flex-col items-center lg:items-start px-5 md:w-3/4 md:mx-auto   ">
+     
+      <h1 className={`${jost.className} font-[800] text-[34px] lg:self-start lg:w-1/2 mt-10`}>
         CarpeDiem Pension&apos;s Journey Through our Audit Process
       </h1>
 
       {pensionJourneyData.map((data) => {
         if (data.id == 2) {
           return (
-            <div key={2} className="flex flex-col  mt-10">
+            <div key={2} className="flex flex-col lg:w-1/2  mt-10">
               <h1 className={`${jost.className} font-[600] text-[24px]`}>
                 2. Manual Code Review:
               </h1>
@@ -45,7 +46,7 @@ const PensionJourney = () => {
           );
         } else if (data.id == 3) {
           return (
-            <div key={2} className="flex flex-col  mt-10">
+            <div key={2} className="flex flex-col lg:w-1/2  mt-10">
               <h1 className={`${jost.className} font-[600] text-[24px]`}>
                 3. Functional Testing:
               </h1>
@@ -66,7 +67,7 @@ const PensionJourney = () => {
           );
         } else {
           return (
-            <div key={data.id} className="flex flex-col  mt-10">
+            <div key={data.id} className="flex flex-col lg:w-1/2  mt-10">
               <h1 className={`${jost.className} font-[600] text-[24px]`}>
                 {data.id}. {data.title}
               </h1>

@@ -8,7 +8,7 @@ import Headquarters from "./Headquarters";
 
 const AuditOverview = () => {
   return (
-    <div className=" flex flex-col md:flex-row md:w-3/4 md:mx-auto md:px-5  gap-10 lg:gap-10 px-10 justify-center h-full  mt-20">
+    <div className=" flex flex-col md:flex-row md:w-3/4 md:mx-auto md:px-5 lg:w-3/2 xl:w-1/2  gap-10 lg:gap-10 px-10 justify-center h-full  mt-20">
       {auditOverViewDataBefore.map((item, index) => (
         <div className="flex flex-col  gap-5" key={index}>
           <div className="bg-[#ffabc9] px-1">
