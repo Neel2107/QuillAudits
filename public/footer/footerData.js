@@ -1,7 +1,7 @@
 export const footerIconsData = [
   {
     id: 1,
-    image: "/footer/x.svg",
+    image: "/footer/X.svg",
   },
   {
     id: 2,
